@@ -1,0 +1,84 @@
+body,
+html {
+    width: 1920px;
+    margin: 0;
+}
+
+/* .parent{
+
+} */
+
+
+
+.header__header-line {
+    background-color: black;
+    background-image: url(./image/image-logo__header/net.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 108px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-line__logo {
+    width: 158px;
+    height: 45px;
+    color: white;
+    padding-top: 32px;
+    padding-left: 310px;
+    padding-right: 400px;
+
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    background: none;
+    padding: 0;
+  }
+  
+  div li {
+    margin: 0;
+  }
+  
+  div a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    background: none;
+  }
+
+  .header-center-drop__dropdown{
+    margin-top: 35px;
+  }
+  
+  .header-center-drop__dropdown:hover .dropdown__content {
+    display: block;
+  }
+  
+  .dropdown__content li {
+    display: block;
+  }
+
+  .button-contact__button{
+    background: none;
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: blueviolet ;
+    width: 150px;
+    height: 40px;
+  }
+
+  .header-line__button-contact{
+    margin-left: 400px;
+    margin-top: 44px;
+  }
