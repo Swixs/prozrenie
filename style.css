@@ -108,16 +108,16 @@ div a {
   margin-bottom: 50px;
   font-size: 56px;
   padding-left: 310px;
-  padding-top: 265px;
+  padding-top: 180px;
   line-height: 70px;
   font-family: 'Readex Pro', sans-serif;
   letter-spacing: 2px;
 }
 
 .header-article-text__span {
-  background: linear-gradient(#64ADF3, #913CE5, #F486DA); 
-  -webkit-background-clip: text; 
-  background-clip: text; 
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   font-size: 56px;
   line-height: 70px;
@@ -132,9 +132,21 @@ div a {
 
 .header-article-button {
   font-family: 'Heebo', sans-serif;
-  background: linear-gradient(#64ADF3, #913CE5, #F486DA); 
-  color:#E6E6E6;
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  color: #E6E6E6;
   width: 225px;
   height: 50px;
   border-radius: 10px;
+}
+
+.header-right-arcticle__img-center-net {
+  width: 697px;
+  height: 697px;
+  z-index: 1;
+}
+
+.header-right-arcticle__img-center-mobile {
+  bottom: 200px;
+  right: 480px;
+  position: fixed;
 }
