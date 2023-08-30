@@ -150,3 +150,83 @@ div a {
   right: 480px;
   position: fixed;
 }
+
+
+.header-right-article__article-first-card {
+  background-color: #090909;
+  width: 195px;
+  height: 47px;
+  bottom: 556px;
+  right: 617px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.article-first-card__text-card {
+  color: #E6E6E6;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  margin: 15px;
+  padding-left: 15px;
+}
+
+.article-first-card__first-image-article {
+  top: 15px;
+  right: 40px;
+  position: absolute;
+}
+
+.header-right-article__article-second-card {
+  background-color: #090909;
+  width: 224px;
+  height: 47px;
+  bottom: 415px;
+  right: 330px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.article-second-card__text-card {
+  color: #E6E6E6;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  margin: 15px;
+  padding-left: 15px;
+}
+
+.article-second-card__second-image-article {
+  top: 6px;
+  right: 14px;
+  position: absolute;
+}
+
+
+.header-right-article__article-therd-card {
+  background-color: #090909;
+  width: 195px;
+  height: 47px;
+  bottom: 295px;
+  right: 617px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.article-third-card__text-card {
+  color: #E6E6E6;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  margin: 15px;
+  padding-left: 15px;
+}
+
+.article-third-card__third-image-article {
+  top: 6px;
+  right: 14px;
+  position: absolute;
+}
