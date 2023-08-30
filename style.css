@@ -1,7 +1,7 @@
 body,
 html {
-    width: 1920px;
-    margin: 0;
+  width: 1920px;
+  margin: 0;
 }
 
 /* .parent{
@@ -9,76 +9,132 @@ html {
 } */
 
 
-
 .header__header-line {
-    background-color: black;
-    background-image: url(./image/image-logo__header/net.png);
-    background-repeat: no-repeat;
-    width: 1920px;
-    height: 108px;
-    border: 1px;
-    display: flex;
-    flex-direction: row;
+  background-color: black;
+  width: 1920px;
+  height: 108px;
+  border: 1px;
+  display: flex;
+  flex-direction: row;
 
 }
 
 .header-line__logo {
-    width: 158px;
-    height: 45px;
-    color: white;
-    padding-top: 32px;
-    padding-left: 310px;
-    padding-right: 400px;
+  width: 158px;
+  height: 45px;
+  color: white;
+  padding-top: 32px;
+  padding-left: 310px;
+  padding-right: 400px;
 
 }
 
 div ul {
-    list-style: none;
-    display: flex;
-    background: none;
-    padding: 0;
-  }
-  
-  div li {
-    margin: 0;
-  }
-  
-  div a {
-    display: block;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .dropdown__content {
-    display: none;
-    position: absolute;
-    background: none;
-  }
+  list-style: none;
+  display: flex;
+  background: none;
+  padding: 0;
+}
 
-  .header-center-drop__dropdown{
-    margin-top: 35px;
-  }
-  
-  .header-center-drop__dropdown:hover .dropdown__content {
-    display: block;
-  }
-  
-  .dropdown__content li {
-    display: block;
-  }
+div li {
+  margin: 0;
+}
 
-  .button-contact__button{
-    background: none;
-    color: blueviolet;
-    padding: 5px;
-    border-radius: 10px;
-    border-color: blueviolet ;
-    width: 150px;
-    height: 40px;
-  }
+div a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
 
-  .header-line__button-contact{
-    margin-left: 400px;
-    margin-top: 44px;
-  }
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background: none;
+}
+
+.header-center-drop__dropdown {
+  margin-top: 35px;
+}
+
+.header-center-drop__dropdown:hover .dropdown__content {
+  display: block;
+}
+
+.dropdown__content li {
+  display: block;
+}
+
+.button-contact__button {
+  background: none;
+  color: blueviolet;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: blueviolet;
+  width: 150px;
+  height: 40px;
+}
+
+.header-line__button-contact {
+  margin-left: 400px;
+  margin-top: 44px;
+}
+
+/*/////////////////////////////////////////////////////////////////*/
+
+.header__header-center {
+  height: 697px;
+  width: 1920;
+  background-color: black;
+  z-index: 1;
+  display: flex;
+
+
+}
+
+.header-article-text__img-net {
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.header-center__header-left-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-left-article__header-article-text {
+  color: #E6E6E6;
+  margin-bottom: 50px;
+  font-size: 56px;
+  padding-left: 310px;
+  padding-top: 265px;
+  line-height: 70px;
+  font-family: 'Readex Pro', sans-serif;
+  letter-spacing: 2px;
+}
+
+.header-article-text__span {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  font-size: 56px;
+  line-height: 70px;
+  font-family: 'Readex Pro', sans-serif;
+  letter-spacing: 2px;
+}
+
+.header-left-article__header-article-button {
+  padding-left: 310px;
+
+}
+
+.header-article-button {
+  font-family: 'Heebo', sans-serif;
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA); 
+  color:#E6E6E6;
+  width: 225px;
+  height: 50px;
+  border-radius: 10px;
+}
