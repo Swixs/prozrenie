@@ -95,7 +95,7 @@ div a {
 .header-article-text__img-net {
   top: 0;
   left: 0;
-  position: fixed;
+  position: absolute;
 }
 
 .header-center__header-left-article {
@@ -148,7 +148,7 @@ div a {
 .header-right-arcticle__img-center-mobile {
   bottom: 200px;
   right: 480px;
-  position: fixed;
+  position: absolute;
 }
 
 
@@ -158,7 +158,7 @@ div a {
   height: 47px;
   bottom: 556px;
   right: 617px;
-  position: fixed;
+  position: absolute;
   border-radius: 10px;
 }
 
@@ -184,7 +184,7 @@ div a {
   height: 47px;
   bottom: 415px;
   right: 330px;
-  position: fixed;
+  position: absolute;
   border-radius: 10px;
 }
 
@@ -211,7 +211,7 @@ div a {
   height: 47px;
   bottom: 295px;
   right: 617px;
-  position: fixed;
+  position: absolute;
   border-radius: 10px;
 }
 
@@ -229,4 +229,8 @@ div a {
   top: 6px;
   right: 14px;
   position: absolute;
+}
+
+.center-header{
+  height: 800px
 }
