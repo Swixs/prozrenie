@@ -114,7 +114,8 @@ div a {
   letter-spacing: 2px;
 }
 
-.header-article-text__span {
+.header-article-text__span,
+.header-footer-title__header-footer-span {
   background: linear-gradient(#64ADF3, #913CE5, #F486DA);
   -webkit-background-clip: text;
   background-clip: text;
@@ -231,6 +232,108 @@ div a {
   position: absolute;
 }
 
-.center-header{
-  height: 800px
+.header__header-footer {
+  background-color: #090909;
+  background-image: url(./image/image-header__footer/mountain_background.png);
+  height: 1710px;
+
+}
+
+.header-footer__header-footer-title {
+  width: 447px;
+  height: 55px;
+  color: #E6E6E6;
+  font-family: Readex Pro;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 720px;
+  padding-top: 75px;
+
+}
+
+.header-footer__header-footer-subtitle {
+  color: #E6E6E6;
+  margin-left: 690px;
+  padding-top: 45px;
+  font-family: Heebo;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.header-footer__header-footer-workers {}
+
+.header-footer-workers__header-top-workers {
+  margin-left: 260px;
+  margin-top: 150px;
+}
+
+.header-top-workers {
+  padding-right: 40px;
+}
+
+.header-footer-workers__header-down-workers {
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.header-footer__header-background-img {
+  top: 2035px;
+  position: absolute;
+}
+
+.parent__intermedia-line {
+  height: 600px;
+  background-color: #090909;
+}
+
+.intermedia-line__intermedia-line-top {
+  margin-left: 410px;
+  padding-top: 100px;
+
+}
+
+.intermedia-line-top__intermedia-line-picture-gradient {
+  padding-right: 30px;
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  width: 199px;
+  height: 205px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 20px;
+  margin-right: 20px;
+
+
+
+}
+
+.intermedia-line-top__intermedia-line-picture {
+  padding-right: 30px;
+  background-color: azure;
+  width: 90px;
+  height: 90px;
+  padding: 65px 57px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.intermedia-line__intermedia-line-down{
+  margin-left: 480px;
+  margin-top: 30px;
+}
+
+.intermedia-line-top__intermedia-line-picture-cloud {
+  padding-right: 30px;
+  background-color: azure;
+  width: 90px;
+  height: 90px;
+  padding: 60px 65px;
+  border-radius: 20px;
+  margin-right: 21px;
+
 }
