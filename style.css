@@ -75,6 +75,13 @@ div a {
   height: 40px;
 }
 
+.button-contact__button:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+
 .header-line__button-contact {
   margin-left: 400px;
   margin-top: 44px;
@@ -139,6 +146,12 @@ div a {
   width: 225px;
   height: 50px;
   border-radius: 10px;
+}
+
+.header-article-button:hover {
+  background: linear-gradient(lightblue, #9c80f7, lightpink);
+  cursor: pointer;
+
 }
 
 .header-right-arcticle__img-center-net {
@@ -268,8 +281,6 @@ div a {
 
 }
 
-.header-footer__header-footer-workers {}
-
 .header-footer-workers__header-top-workers {
   margin-left: 260px;
   margin-top: 150px;
@@ -339,12 +350,10 @@ div a {
   margin-right: 21px;
 }
 
-.parent__center {}
-
 .center__center-top {
   background: url(./image/center-title-info/background-center-info.png);
   width: 1920px;
-  height: 1120px;
+  height: 1200px;
   background-color: #090909;
 }
 
@@ -379,7 +388,26 @@ div a {
   width: 350px;
   border-radius: 20px;
   height: 555px;
+  transition: transform 0.6 ease;
 }
+
+.center-cards-price__center-left-card:hover,
+.center-cards-price__center-center-card:hover,
+.center-cards-price__center-right-card:hover {
+  transform: scale(1.06);
+  transition: 2s;
+  background-color: #2d1f36;
+}
+
+
+.center-cards-price__center-left-card:not(:hover),
+.center-cards-price__center-center-card:not(:hover),
+.center-cards-price__center-right-card:not(:hover) {
+  transform: scale(1);
+  transition: 1s;
+}
+
+
 
 .center-left-card__left-card-title {
   color: #E6E6E6;
@@ -413,10 +441,18 @@ div a {
   margin-left: 25px;
 }
 
-.center-left-card__left-card-info {}
+
 
 .left-card-info__first-text {
   color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .left-card-info__left-card-img {
@@ -425,18 +461,328 @@ div a {
 
 .left-card-info__second-text {
   color: #E6E6E6;
+  margin-bottom: 10px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+
 }
 
 .left-card-info__third-text {
   color: #E6E6E6;
+  margin-bottom: 10px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+
 }
 
 .left-card-info__fourth-text {
   color: #E6E6E6;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+
 }
+
 
 .left-card-info__fifth-text {
   color: #E6E6E6;
+  margin-bottom: 60px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.center-left-card__left-card-button {}
+
+.center-left-card__left-card-button {
+  padding: 20px 104.19000244140625px 20px 104.80999755859375px;
+  border-radius: 10px;
+  border: 2px;
+  width: 300px;
+  margin-left: 25px;
+  border-color: grey;
+  background-color: #1A1A1ACC;
+
+}
+
+.left-card-button__text {
+  color: #E6E6E6;
+}
+
+.center-left-card__left-card-button:hover,
+.center-center-card__center-card-button:hover,
+.center-right-card__right-card-button:hover{
+  background-color: #913CE5;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+
+
+
+.center-cards-price__center-center-card {
+  margin-left: 150px;
+  margin-top: 200px;
+  background-color: #1A1A1ACC;
+  width: 350px;
+  border-radius: 20px;
+  height: 555px;
+  transition: transform 0.6 ease;
+}
+
+.center-center-card__center-card-title {
+  color: #E6E6E6;
+  font-family: Readex Pro;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.center-center-card__center-card-underline {
+  margin-right: 20px;
+  margin-left: 25px;
+  padding-left: 20px;
+  border-color: grey;
+}
+
+.center-center-card__center-card-price {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  line-height: 70px;
+  font-family: 'Readex Pro', sans-serif;
+  margin-left: 25px;
+}
+
+
+
+.center-card-info__first-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.center-card-info__center-card-img {
+  margin-left: 25px;
+}
+
+.center-card-info__second-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.center-card-info__third-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.center-card-info__fourth-text {
+  color: #E6E6E6;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.center-card-info__fifth-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 60px;
+
+}
+
+.center-center-card__center-card-button {
+  padding: 20px 104.19000244140625px 20px 104.80999755859375px;
+  border-radius: 10px;
+  border: 2px;
+  width: 300px;
+  margin-left: 25px;
+  border-color: grey;
+  background-color: #1A1A1ACC;
+}
+
+.center-card-button__text {
+  color: #E6E6E6;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+.center-cards-price__center-right-card {
+  margin-left: 150px;
+  margin-top: 200px;
+  background-color: #1A1A1ACC;
+  width: 350px;
+  border-radius: 20px;
+  height: 555px;
+  transition: transform 0.6 ease;
+}
+
+.center-right-card__right-card-title {
+  color: #E6E6E6;
+  font-family: Readex Pro;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.center-right-card__right-card-underline {
+  margin-right: 20px;
+  margin-left: 25px;
+  padding-left: 20px;
+  border-color: grey;
+}
+
+.center-right-card__right-card-price {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+  line-height: 70px;
+  font-family: 'Readex Pro', sans-serif;
+  margin-left: 25px;
+}
+
+
+
+.right-card-info__first-text {
+  color: #E6E6E6;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.right-card-info__right-card-img {
+  margin-left: 25px;
+}
+
+.right-card-info__second-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.right-card-info__third-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.right-card-info__fourth-text {
+  color: #E6E6E6;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+.right-card-info__fifth-text {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 60px;
+
+}
+
+.center-right-card__right-card-button {
+  padding: 20px 104.19000244140625px 20px 104.80999755859375px;
+  border-radius: 10px;
+  border: 2px;
+  width: 300px;
+  margin-left: 25px;
+  border-color: grey;
+  background-color: #1A1A1ACC;
+}
+
+.right-card-button__text {
+  color: #E6E6E6;
+}
