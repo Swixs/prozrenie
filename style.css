@@ -529,7 +529,7 @@ div a {
 
 .center-left-card__left-card-button:hover,
 .center-center-card__center-card-button:hover,
-.center-right-card__right-card-button:hover{
+.center-right-card__right-card-button:hover {
   background-color: #913CE5;
   cursor: pointer;
   transition: 1s;
@@ -786,3 +786,120 @@ div a {
 .right-card-button__text {
   color: #E6E6E6;
 }
+
+/* ........................................................................................... */
+
+
+.center__center-calculator {
+  background-color: #090909;
+}
+
+.center-calculator__center-calculator-title {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.center-calculator__center-calculator-subtitle {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #E6E6E6;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.center-calculator-left-chapter__calculator-left-slider {
+  padding: 9px;
+  width: 20%;
+  background: none;
+}
+
+.center-calculator__center-calculator-left-chapter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 310px;
+}
+
+.calculator-left-slider__left-slider-scale {
+  border: 1px solid grey;
+  width: 265px;
+  margin-left: 2px;
+  position: absolute;
+  top: 4754px;
+  left: 319px;
+}
+
+
+/* ==================================================== */
+
+
+.calculator-left-slider__slider-black-block {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 4707px;
+  left: 274px;
+  z-index: 100;
+  background-color: #090909;
+}
+
+.calculator-left-slider__slider-black-block-right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 4707px;
+  left: 588px;
+  background-color: #090909;
+  z-index: 100;
+}
+
+
+
+.calculator-left-slider__slider {
+  height: 40px;
+  width: 300px;
+  appearance: none;
+  background: #090909;
+  overflow: hidden;
+  outline: none;
+  z-index: 10;
+}
+
+.calculator-left-slider__slider::-webkit-slider-thumb {
+  height: 48px;
+  width: 35px;
+  background-image: url('./image/center-calculator-slider/slider-scale.png');
+  background-size: cover;
+  background-color: white;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: -200px 0 0 185px #ff00ff;
+  border: 0;
+  left: -15px;
+  z-index: 10;
+  position: relative;
+}
+
+.calculator-left-slider__slider::-moz-range-thumb {
+  height: 15px;
+  width: 25px;
+  background: #64ADF3;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: -200px 0 0 185px #ff00ff;
+  border: 0;
+  z-index: 1;
+}
+
+/* ======================================================== */
