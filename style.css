@@ -792,6 +792,7 @@ div a {
 
 .center__center-calculator {
   background-color: #090909;
+  height: 790px;
 }
 
 .center-calculator__center-calculator-title {
@@ -815,50 +816,158 @@ div a {
   text-align: center;
   color: #E6E6E6;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 110px;
 }
 
 .center-calculator-left-chapter__calculator-left-slider {
   padding: 9px;
-  width: 20%;
+  width: 80%;
   background: none;
 }
 
 .center-calculator__center-calculator-left-chapter {
-  display: flex;
-  flex-direction: column;
   margin-left: 310px;
 }
 
 .calculator-left-slider__left-slider-scale {
   border: 1px solid grey;
-  width: 265px;
+  width: 403px;
   margin-left: 2px;
   position: absolute;
-  top: 4754px;
+  top: 4816px;
   left: 319px;
 }
 
 
+.center-calculator-left-chapter__calculator-left-title {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E6E6E6;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+/* =-===================================================== */
+
+.left-slider-scale__slider-numbers {}
+
+.slider-numbers__slider-first-num {
+  border-left: 1px solid grey;
+  position: absolute;
+  color: #E6E6E6;
+  padding-left: 10px;
+  top: 4817px;
+  left: 326px;
+  padding-top: 7px;
+
+}
+
+.slider-numbers__slider-second-num {
+  border-right: 1px solid grey;
+  position: absolute;
+  color: #E6E6E6;
+  padding-right: 10px;
+  top: 4817px;
+  left: 424px;
+  padding-top: 7px;
+
+}
+
+.slider-numbers__slider-third-num {
+  border-right: 1px solid grey;
+  position: absolute;
+  color: #E6E6E6;
+  padding-right: 10px;
+  top: 4817px;
+  left: 558px;
+  padding-top: 7px;
+
+}
+
+.slider-numbers__slider-fourth-num {
+  border-right: 1px solid grey;
+  position: absolute;
+  color: #E6E6E6;
+  padding-right: 10px;
+  top: 4817px;
+  left: 687px;
+  padding-top: 7px;
+}
+
+
+.center-calculator-right-chapter__calculator-right-title {
+  position: absolute;
+  top: 4655px;
+  right: 738px;
+  color: #E6E6E6;
+  font-family: Heebo;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.center-calculator__center-calculator-dollar-vector {
+  position: absolute;
+  top: 4712px;
+  right: 861px;
+  color: #E6E6E6;
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.center-calculator-right-chapter__calculator-right-sliderSum {
+  position: absolute;
+  top: 4680px;
+  right: 680px;
+  color: #E6E6E6;
+  font-family: Readex Pro;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.center-calculator-right-chapter__calculator-right-button{
+  position: absolute;
+  top: 4700px;
+  right: 340px;
+  font-family: 'Heebo', sans-serif;
+    background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+    color: #E6E6E6;
+    width: 225px;
+    height: 50px;
+    border-radius: 10px;
+}
 /* ==================================================== */
 
 
 .calculator-left-slider__slider-black-block {
-  width: 50px;
-  height: 50px;
+  width: 49px;
+  height: 81px;
   position: absolute;
-  top: 4707px;
-  left: 274px;
+  top: 4739px;
+  left: 277px;
   z-index: 100;
   background-color: #090909;
 }
 
 .calculator-left-slider__slider-black-block-right {
   width: 50px;
-  height: 50px;
+  height: 80px;
   position: absolute;
-  top: 4707px;
-  left: 588px;
+  top: 4739px;
+  left: 722px;
   background-color: #090909;
   z-index: 100;
 }
@@ -866,8 +975,8 @@ div a {
 
 
 .calculator-left-slider__slider {
-  height: 40px;
-  width: 300px;
+  height: 70px;
+  width: 435px;
   appearance: none;
   background: #090909;
   overflow: hidden;
@@ -876,7 +985,7 @@ div a {
 }
 
 .calculator-left-slider__slider::-webkit-slider-thumb {
-  height: 48px;
+  height: 47px;
   width: 35px;
   background-image: url('./image/center-calculator-slider/slider-scale.png');
   background-size: cover;
@@ -884,7 +993,7 @@ div a {
   appearance: none;
   cursor: pointer;
   border-radius: 100%;
-  box-shadow: -200px 0 0 185px #ff00ff;
+  box-shadow: -200px 0 0 185px RGB(321, 116, 262);
   border: 0;
   left: -15px;
   z-index: 10;
@@ -893,11 +1002,11 @@ div a {
 
 .calculator-left-slider__slider::-moz-range-thumb {
   height: 15px;
-  width: 25px;
+  width: 400px;
   background: #64ADF3;
   appearance: none;
   cursor: pointer;
-  box-shadow: -200px 0 0 185px #ff00ff;
+  box-shadow: -200px 0 0 185px RGB(321, 116, 262);
   border: 0;
   z-index: 1;
 }
