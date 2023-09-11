@@ -1016,7 +1016,7 @@ div a {
 
 .center__center-advantages-line {
   background-color: #090909;
-  height: 800px;
+  height: 1000px;
 }
 
 .center-advanteges-line__center-advanteges-title {
@@ -1055,7 +1055,7 @@ div a {
 
 .advanteges-img-right__img {
   position: absolute;
-  top: 5250px;
+  top: 5400px;
   right: 0;
 }
 
@@ -1075,4 +1075,42 @@ div a {
   position: absolute;
   top: 5400px;
   left: 660px;
+}
+
+
+.center-advanteges-line__subtitle-result-chapter {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 890px;
+  margin-top: 30px;
+  color: #E6E6E6;
+}
+
+.center-advanteges-line__title-result-chapter {
+  margin-top: 100px;
+  color: #E6E6E6;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+
+.title-result-chapter__span {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 200px;
 }
