@@ -2049,9 +2049,6 @@ div a {
   margin-top: 50px;
 }
 
-.footer-bottom-info__info-img-animation {
-
-}
 
 .info-img-animation__bottom-animation {
     animation: moveUpDown 2s ease infinite;
@@ -2070,6 +2067,7 @@ div a {
 }
 
 .footer-bottom-info__bottom-txt {
+  margin-top: 100px;
   margin-left: 120px;
   font-family: Readex Pro;
 font-size: 24px;
