@@ -1953,3 +1953,128 @@ div a {
   left: 1600px;
 
 }
+
+.parent__footer {
+  top: 9943px;
+  position: absolute;
+
+}
+
+.parent-footer__footer-info-chapter {
+  background: url(./image/footer/footer-background.png);
+  width: 1920px;
+  height: 1500px;
+  background-color: #090909;
+}
+
+.footer-info-chapter-title {
+  padding-TOP: 100PX;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #E6E6E6;
+
+}
+
+.footer-info-chapter__title-span {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* ================================================================ */
+
+.footer-info-chapter__footer-top-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 410px;
+  margin-top: 180px;
+
+}
+
+.footer-top-info__txt {
+  margin-top: 100px;
+  font-family: Readex Pro;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E6E6E6;
+}
+
+.footer-top-info__info-img-animation {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.info-img-animation__top-animation {
+  animation: moveUpDown 2s ease infinite;
+
+
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+
+.txt-span {
+  color: #913CE5;
+}
+
+/* =============================================== */
+
+.footer-info-chapter__footer-bottom-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 410px;
+  margin-top: 50px;
+}
+
+.footer-bottom-info__info-img-animation {
+
+}
+
+.info-img-animation__bottom-animation {
+    animation: moveUpDown 2s ease infinite;
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.footer-bottom-info__bottom-txt {
+  margin-left: 120px;
+  font-family: Readex Pro;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #E6E6E6;
+}
