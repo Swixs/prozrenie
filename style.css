@@ -2051,7 +2051,7 @@ div a {
 
 
 .info-img-animation__bottom-animation {
-    animation: moveUpDown 2s ease infinite;
+  animation: moveUpDown 2s ease infinite;
 }
 
 @keyframes moveUpDown {
@@ -2070,9 +2070,171 @@ div a {
   margin-top: 100px;
   margin-left: 120px;
   font-family: Readex Pro;
-font-size: 24px;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-color: #E6E6E6;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #E6E6E6;
+}
+
+/* ==================================================== */
+
+.footer__footer-coments {
+  height: 1000px;
+  background-color: #090909;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-line {
+  background-color: #090909;
+}
+
+.footer-coments__title {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  padding-top: 120px;
+  padding-left: 915px;
+}
+
+
+.footer-coments__first-coment {}
+
+.first-coment__img-footer-coment-user {
+  position: absolute;
+  top: 1940px;
+  left: 375px;
+}
+
+.first-coment__footer-box-info {
+  margin-top: 350px;
+  width: 420px;
+  height: 404px;
+  top: 138px;
+  background-color: #0C0C0C;
+  box-shadow: 0px 0px 15px 5px #913CE54D;
+  margin-left: 260px;
+  border-radius: 30px;
+}
+
+.footer-box-info__box-info-nameUser {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 150px;
+
+}
+
+.footer-box-info__box-info-comentTxt {
+  color: #E6E6E6;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.span-comentTxt {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+/* ============================================ */
+
+.footer-coments__second-coment {}
+
+.second-coment__img-footer-coment-user {
+  position: absolute;
+  top: 1930px;
+  left: 895px;
+}
+
+.second-coment__footer-box-info {
+  margin-top: 350px;
+  width: 420px;
+  height: 404px;
+  top: 138px;
+  background-color: #0C0C0C;
+  box-shadow: 0px 0px 15px 5px #913CE54D;
+  border-radius: 30px;
+  margin-left: 100px;
+}
+
+.footer-box-info__second-box-info-nameUser {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.footer-box-info__second-box-info-comentTxt {
+  color: #E6E6E6;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+/* ======================================== */
+
+.third-coment__img-footer-coment-user {
+  position: absolute;
+  top: 1930px;
+  left: 1412px;
+}
+
+.third-coment__footer-box-info {
+  margin-top: 350px;
+  width: 420px;
+  height: 404px;
+  top: 138px;
+  background-color: #0C0C0C;
+  box-shadow: 0px 0px 15px 5px #913CE54D;
+  border-radius: 30px;
+  margin-left: 100px;
+}
+
+.footer-box-info__third-box-info-nameUser {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.footer-box-info__third-box-info-comentTxt {
+  color: #E6E6E6;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
 }
