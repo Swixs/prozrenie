@@ -2238,3 +2238,150 @@ div a {
   padding-right: 50px;
   padding-top: 50px;
 }
+
+/* ============================================= */
+
+
+.footer__footer-contact {
+  background-image: url(./image/footer/footer-contact/mount-contact.png);
+  width: 1920px;
+  height: 1300px;
+  background-color: #090909;
+}
+
+.footer-contact__contact-title {
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: Readex Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+
+.footer-contact__footer-contact-helpMenu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  margin-top: 150px;
+
+}
+
+.footer-contact-helpMenu__helpMenu-gmail {
+  background-color: #0C0C0C;
+  border-radius: 10px;
+  width: 310px;
+  height: 270px;
+  margin-right: 30px;
+}
+
+.helpMenu-gmail__gmail-img {
+  position: relative;
+  top: 50px;
+  left: 115px;
+}
+
+.helpMenu-gmail__gmail-txt {
+  color: #E6E6E6;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  margin-top: 100px;
+  margin-left: 51px;
+}
+
+.footer-contact-helpMenu__helpMenu-call {
+  background-color: #0C0C0C;
+  border-radius: 10px;
+  width: 310px;
+  height: 270px;
+  margin-right: 30px;
+}
+
+.helpMenu-call__call-img {
+  position: relative;
+  top: 50px;
+  left: 115px;
+}
+
+.helpMenu-call__call-button {
+  color: #E6E6E6;
+  width: 270px;
+  margin-top: 80px;
+  border-radius: 10px;
+  background: #FFFFFF0D;
+  border: 2px solid #FFFFFF0D;
+  height: 50px;
+}
+
+.helpMenu-call__call-button:hover {
+  background-color: #913CE5;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+/* ================================================ */
+
+
+.footer-contact__footer-contact-inputUser {
+  display: flex;
+  flex-direction: column;
+  background-color: #0C0C0C;
+  border-radius: 10px;
+  width: 620px;
+  height: 270px;
+  margin-right: 30px;
+}
+
+.footer-contact-inputUser__input-name-user {
+  background: linear-gradient(0deg, #181818, #181818),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  border-radius: 10px;
+  width: 546px;
+  height: 40px;
+  margin-left: 47px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #E6E6E6;
+}
+
+.footer-contact-inputUser__input-number-user {
+  background: linear-gradient(0deg, #181818, #181818),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  border-radius: 10px;
+  width: 546px;
+  height: 40px;
+  margin-left: 47px;
+  margin-bottom: 20px;
+  color: #E6E6E6;
+}
+
+.footer-contact-inputUser__button {
+  font-family: 'Heebo', sans-serif;
+  background: linear-gradient(#64ADF3, #913CE5, #F486DA);
+  color: #E6E6E6;
+  border-radius: 10px;
+  width: 555px;
+  height: 55px;
+  margin-left: 47px;
+}
+
+
+
+.footer-contact-inputUser__button:hover {
+  background: linear-gradient(lightblue, #9c80f7, lightpink);
+  cursor: pointer;
+  transition: 1s;
+}
+/* ================================================================ */
+
